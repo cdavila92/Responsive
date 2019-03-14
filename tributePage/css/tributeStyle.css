@@ -1,0 +1,16 @@
+html, body{
+    text-align: center;
+    color: #785631;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main{
+    margin: 25px auto;
+    padding: 10px;
+    background-color: white;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
