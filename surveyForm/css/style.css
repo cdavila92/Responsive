@@ -1,0 +1,39 @@
+html, body{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+    font-size: 95%;
+}
+#main{
+    margin: 25px auto;
+    padding: 10px;
+}
+#survey-form{
+    background-color: azure;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+}
+.input-container{
+    margin: 10px auto;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+#comments{
+    resize: none;
+    text-align: center;
+}
+.checkbox{
+    position: absolute;
+    left: 140px;
+}
+.check-lab{
+    position: absolute;
+    left: 165px;
+}

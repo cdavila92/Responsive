@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main id="main">
+            <h1 id="title">Football Form</h1>
+            <form id="survey-form">
+                <p id="description">Let us know your favorites things about football</p>
+                <div class="input-container">
+                    <label id="name-label" for="name" class="text-left-panel">Name:</label>
+                    <input id="name" name="name" type="text" required placeholder="Enter your name">
+                </div>
+                <div class="input-container">
+                    <label id="email-label" for="email" class="text-left-panel">Email:</label>
+                    <input id="email" name="email" type="email" required placeholder="Enter your email">
+                </div>
+                <div class="input-container">
+                    <label id="number-label" for="number" class="text-left-panel">Age:</label>
+                    <input id="number" name="number" type="number" min=1 max=100 placeholder="Enter your age">
+                </div>
+                <div class="input-container">
+                    <p>How big of a Football fan are you?</p>
+                    <select id="dropdown">
+                        <option disabled selected value="">Select an option</option>
+                        <option value="1">Do you mean Soccer?</option>
+                        <option value="2">I know Messi, that counts?</option>
+                        <option value="3">I watch every Fifa World Cup.</option>
+                        <option value="4">I breath Football!!!!</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <p>Choose your favorite team from Santander League:</p>
+                    <input type="radio" class="checkbox" id="Barcelona" name="team" value="Barcelona"><label class="check-lab for="Barcelona">Barcelona</label><br>
+                    <input type="radio" class="checkbox" id="RealMadrid" name="team" value="RealMadrid"><label class="check-lab for="RealMadrid">Real Madrid</label><br>
+                    <input type="radio" class="checkbox" id="Atletico" name="team" value="Atletico"><label class="check-lab for="Atletico">Atlético</label>
+                </div>
+                <div class="input-container">
+                    <p>Choose your favorites players:</p>
+                    <input type="checkbox" class="checkbox" id="Messi" value="Messi"><label class="check-lab" for="Messi">Lionel Messi</label><br>
+                    <input type="checkbox" class="checkbox" id="Cristiano" value="Cristiano"><label class="check-lab" for="Cristiano">Cristiano Ronaldo</label><br>
+                    <input type="checkbox" class="checkbox" id="Neymar" value="Neymar"><label class="check-lab" for="Neymar">Neymar Jr.</label><br>
+                    <input type="checkbox" class="checkbox" id="Coutinho" value="Coutinho"><label class="check-lab" for="Coutinho">Phillipe Coutinho</label><br>
+                    <input type="checkbox" class="checkbox" id="Mbappe" value="Mbappe"><label class="check-lab" for="Mbappe">Killian Mbappe</label><br>
+                    <input type="checkbox" class="checkbox" id="Hazard" value="Hazard"><label class="check-lab" for="Hazard">Eden Hazard</label><br>
+                </div>
+                <div class="input-container">
+                    <textarea id="comments" cols="30" rows="5" placeholder="Put your comments here"></textarea>
+                </div>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
